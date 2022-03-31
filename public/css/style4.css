@@ -1,0 +1,749 @@
+.navbar {
+    box-shadow: 0 7px 7px rgba(192, 186, 186, 0.8);
+}
+
+.navbar-nav {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #080808;
+}
+.nav-item4 {
+    width: 100px;
+    height: 25px;
+    left: 1235px;
+    top: 18px;
+    background: #07b4fe;
+    border-radius: 10px;
+}
+.nav-link4 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.logo {
+    font-family: "Lobster", cursive;
+    color: #07b4fe;
+    font-size: 26px;
+}
+
+/* Destinasi */
+
+/* 320px mobile */
+/* @media (max-width: 320px) {
+    .navbar {
+        width: 320px;
+    }
+}
+@media (max-width: 320px) {
+    .kontenatas .judul {
+        margin-top: -100px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 320px) {
+    .favorite {
+        width: 320px;
+    }
+}
+
+@media (max-width: 320px) {
+    .kontenatas .subjudul {
+        font-size: 9px;
+        width: 300px;
+    }
+}
+@media (max-width: 320px) {
+    .kontenatas form {
+        width: 280px;
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .kontenatas form .box {
+        width: 100px;
+        height: 20px;
+        font-size: 8px;
+    }
+}
+@media (max-width: 320px) {
+    .kontenatas form .box2 {
+        width: 50px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .img img {
+        width: 320px;
+    }
+}
+@media (max-width: 320px) {
+    .slider .details img {
+        height: 170px;
+        width: 120px;
+    }
+}
+@media (max-width: 320px) {
+    .favorite .wisatafit {
+        width: 30px;
+    }
+}
+@media (max-width: 320px) {
+    .favorite .wisata img {
+        height: 170px;
+    }
+}
+@media (max-width: 320px) {
+    .favorite .wisata p {
+        font-size: 10px;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 320px) {
+    .kota .details img {
+        height: 170px;
+    }
+} */
+
+/* 375px */
+
+@media (max-width: 375px) {
+    .kontenatas form {
+        width: 280px;
+    }
+}
+
+@media (max-width: 375px) {
+    .kontenatas form .box {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 375px) {
+    .kontenatas form .box2 {
+        width: 50px;
+        font-size: 10px;
+    }
+}
+/* @media (max-width: 375px) {
+    .navbar {
+        width: 375px;
+    }
+}
+@media (max-width: 375px) {
+    .img img {
+        width: 375px;
+    }
+}
+@media (max-width: 375px) {
+    .kontenatas .judul {
+        margin-top: -100px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 375px) {
+    .kontenatas .subjudul {
+        font-size: 9px;
+        margin-top: -10px;
+    }
+}
+@media (max-width: 375px) {
+    .kontenatas form {
+        width: 280px;
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .kontenatas form .box {
+        width: 100px;
+        height: 20px;
+        font-size: 8px;
+    }
+}
+@media (max-width: 375px) {
+    .kontenatas form .box2 {
+        width: 50px;
+        font-size: 10px;
+    }
+}
+@media (max-width: 375px) {
+    .slider .details img {
+        height: 170px;
+    }
+}
+@media (max-width: 375px) {
+    .favorite .wisatafit {
+        width: 30px;
+    }
+}
+@media (max-width: 375px) {
+    .favorite .wisata img {
+        height: 190px;
+    }
+}
+@media (max-width: 375px) {
+    .favorite .wisata p {
+        font-size: 10px;
+        margin-left: 80px;
+    }
+}
+@media (max-width: 375px) {
+    .kota .details img {
+        height: 190px;
+    }
+} */
+
+/* 425px */
+/* @media (max-width: 425px) {
+    .slider .details img {
+        height: 210px;
+    }
+}
+@media (max-width: 425px) {
+    .navbar {
+        width: 425;
+    }
+}
+@media (max-width: 425px) {
+    .img img {
+        width: 425px;
+    }
+}
+@media (max-width: 425px) {
+    .kontenatas .judul {
+        margin-top: -100px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 425px) {
+    .kontenatas .subjudul {
+        font-size: 13px;
+        margin-top: -10px;
+    }
+}
+@media (max-width: 425px) {
+    .kontenatas form {
+        width: 330px;
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .kontenatas form .box {
+        width: 200px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+@media (max-width: 425px) {
+    .kontenatas form .box2 {
+        width: 50px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 425px) {
+    .favorite .wisatafit {
+        width: 30px;
+    }
+}
+@media (max-width: 425px) {
+    .favorite .wisata img {
+        height: 210px;
+    }
+}
+@media (max-width: 425px) {
+    .favorite .wisata p {
+        font-size: 10px;
+        margin-left: 100px;
+    }
+}
+@media (max-width: 425px) {
+    .kota .details img {
+        height: 190px;
+    }
+} */
+
+/* 768px */
+
+@media (max-width: 768px) {
+    .favorite .wisata p {
+        margin-left: 50px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 768px) {
+    .kontenatas .judul {
+        margin-top: -200px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar {
+        width: 768px;
+    }
+}
+@media (max-width: 768px) {
+    .img img {
+        width: 768px;
+    }
+}
+@media (max-width: 768px) {
+    .slider .details img {
+        height: 170px;
+    }
+}
+@media (max-width: 768px) {
+    .kota .details img {
+        height: 170px;
+    }
+}
+.kontenatas form {
+    font-family: "Poppins", sans-serif;
+    margin-right: 800px;
+}
+
+.judul {
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    margin-top: -350px;
+    font-size: 24px;
+    color: white;
+}
+.subjudul {
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+}
+/* @media (max-width: 750px) {
+    .subjudul {
+        font-size: 18px;
+    }
+} */
+.tag {
+    font-size: 25px;
+    margin-top: -10px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 100px;
+    text-align: left;
+}
+.tag2 {
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    margin-left: 100px;
+}
+.mydestinasi1 {
+    font-size: 25px;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.favorite {
+    margin-top: 50px;
+}
+.kota {
+    margin-top: -5px;
+}
+
+.wisata p {
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+.one {
+    margin-top: 50px;
+}
+
+/* footer */
+/* @media (max-width: 750px) {
+    .judulawal h2,
+    .judulawal p {
+        margin-right: 500px;
+    }
+} */
+
+@media (max-width: 320px) {
+    .judulawal .foot2,
+    .judulawal .list2 {
+        margin-left: 210px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 320px) {
+    .judulawal .foot {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 320px) {
+    .judulawal .foot,
+    .judulawal .list {
+        margin-left: 210px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    .inifooter .tagakhir2 {
+        margin-right: 250px;
+    }
+}
+@media (max-width: 320px) {
+    .inifooter .tagakhir3 {
+        margin-right: 170px;
+    }
+}
+@media (max-width: 320px) {
+    .inifooter .tagakhir2 img,
+    .inifooter .tagakhir3 img {
+        width: 10px;
+    }
+}
+@media (max-width: 320px) {
+    .inifooter .tagakhir2 .textplay,
+    .inifooter .tagakhir3 .textplay {
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+/* footer 375px */
+/* @media (max-width: 375px) {
+    .judulawal .foot2,
+    .judulawal .list2 {
+        margin-left: 230px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 375px) {
+    .judulawal .foot {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 375px) {
+    .judulawal .foot2 {
+        margin-top: -120px;
+    }
+}
+@media (max-width: 375px) {
+    .judulawal .foot,
+    .judulawal .list {
+        margin-left: 230px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .inifooter .tagakhir2 {
+        margin-right: 250px;
+    }
+}
+@media (max-width: 375px) {
+    .inifooter .tagakhir3 {
+        margin-right: 170px;
+    }
+}
+@media (max-width: 375px) {
+    .inifooter .tagakhir2 img,
+    .inifooter .tagakhir3 img {
+        width: 10px;
+    }
+}
+@media (max-width: 375px) {
+    .inifooter .tagakhir2 .textplay,
+    .inifooter .tagakhir3 .textplay {
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
+    }
+} */
+
+/* 425px */
+@media (max-width: 375px) {
+    .inifooter .tagakhir2 {
+        margin-right: 250px;
+    }
+}
+@media (max-width: 375px) {
+    .inifooter .tagakhir3 {
+        margin-right: 170px;
+    }
+}
+@media (max-width: 425px) {
+    .judulawal .foot2,
+    .judulawal .list2 {
+        margin-left: 260px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 425px) {
+    .judulawal .foot {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 425px) {
+    .judulawal .foot2 {
+        margin-top: -120px;
+    }
+}
+@media (max-width: 425px) {
+    .judulawal .foot,
+    .judulawal .list {
+        margin-left: 260px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 425px) {
+    .inifooter .sosmed {
+        margin-right: 60px;
+    }
+}
+@media (max-width: 425px) {
+    .inifooter .tagakhir {
+        margin-right: 230px;
+    }
+}
+@media (max-width: 425px) {
+    .inifooter .tagakhir2 {
+        margin-right: 300px;
+    }
+}
+@media (max-width: 425px) {
+    .inifooter .tagakhir3 {
+        margin-right: 230px;
+    }
+}
+@media (max-width: 425px) {
+    .inifooter .tagakhir2 img,
+    .inifooter .tagakhir3 img {
+        width: 10px;
+    }
+}
+@media (max-width: 425px) {
+    .inifooter .tagakhir2 .textplay,
+    .inifooter .tagakhir3 .textplay {
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+.foot1 {
+    margin-top: 50px;
+    font-family: "Lobster", cursive;
+    color: #07b4fe;
+    font-size: 40px;
+    text-align: left;
+}
+
+.tagone {
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+}
+
+.foot,
+.list {
+    margin-right: 300px;
+    font-family: "Poppins", sans-serif;
+}
+
+.foot {
+    margin-top: -180px;
+}
+
+.foot2,
+.list2 {
+    margin-left: 250px;
+    margin-top: -90px;
+    font-family: "Poppins", sans-serif;
+}
+
+.list2 {
+    margin-top: -1px;
+}
+.list3,
+.foot3 {
+    margin-left: 20px;
+    margin-top: -150px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    font-size: 15px;
+}
+
+.list3 {
+    margin-top: 5px;
+}
+
+.sosmed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    font-size: 25px;
+    margin-top: -150px;
+}
+.sosmed li {
+    list-style: none;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #07b4fe;
+    border-radius: 50%;
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+.tagakhir {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    margin-right: 160px;
+    margin-top: -100px;
+}
+
+.textplay {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.tagakhir2 {
+    margin-right: 250px;
+    margin-top: -60px;
+}
+
+.tagakhir2 a {
+    list-style: none;
+    width: 120px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080808;
+    border-radius: 10%;
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+.tagakhir3 a {
+    list-style: none;
+    width: 120px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080808;
+    border-radius: 10%;
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+.tagakhir3 {
+    margin-right: 100px;
+    margin-top: -60px;
+}
+
+/* infokota */
+.tag4 {
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.wisatap {
+    text-align: left;
+    margin-left: 100px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.mydestinasi2 {
+    font-size: 25px;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.footers {
+    margin-top: 200px;
+}
+
+/* Download */
+.down {
+    margin-top: 100px;
+}
+@media (max-width: 750px) {
+    .down {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.down2 {
+    margin-top: -480px;
+    margin-left: 480px;
+}
+@media (max-width: 750px) {
+    .down2 {
+        width: 300px;
+        margin-left: 200px;
+    }
+}
+@media (max-width: 750px) {
+    .down3 {
+        width: 200px;
+        margin-left: 480px;
+    }
+}
+@media (max-width: 750px) {
+    .parag {
+        font-size: 8px;
+    }
+}
+@media (max-width: 750px) {
+    .kotak {
+        width: 60px;
+        margin-left: 200px;
+    }
+}
+.kotak {
+    margin-top: -370px;
+    margin-left: 450px;
+}
+
+.down3 {
+    margin-top: -800px;
+    margin-left: 480px;
+}
+.kotak2 {
+    margin-top: -650px;
+    margin-left: 450px;
+}
+.parag {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    text-align: left;
+    margin-top: -280px;
+    margin-left: 480px;
+}

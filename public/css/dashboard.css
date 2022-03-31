@@ -1,0 +1,228 @@
+body {
+    font-size: 0.875rem;
+}
+
+.feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+}
+
+/*
+ * Sidebar
+ */
+
+.mysidebar {
+    background-color: #f4f4f4;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    padding: 48px 0 0; /* Height of navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    margin-top: 75px;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+@media (max-width: 750px) {
+    .sidebar-sticky {
+        margin-top: 700px;
+    }
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sidebar-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+    }
+}
+
+.sidebar .nav-link {
+    color: #07b4fe;
+    font-size: 16px;
+}
+
+.sidebar .nav-link.active {
+    background-color: #07b4feef;
+    color: white;
+    font-size: 16px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #07b4feef;
+    color: white;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+    color: inherit;
+}
+
+.sidebar-heading {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+/*
+ * Navbar
+ */
+.navbar {
+    box-shadow: 0 7px 7px rgba(192, 186, 186, 0.8);
+    background-color: white;
+}
+
+.navbar-nav {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #080808;
+}
+
+.img-circle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.dropdown img {
+    width: 30px;
+    float: left;
+}
+.dropdown-menu {
+    z-index: 5;
+}
+.nav-link4 {
+    color: #030303;
+    text-align: center;
+}
+
+/* dashboard */
+.content {
+    margin-left: 230px;
+    margin-top: -550px;
+}
+
+.menu {
+    box-shadow: 0 10px 7px rgba(192, 186, 186, 0.8);
+}
+@media (max-width: 530px) {
+    .menu {
+        width: 30px;
+        margin-right: -100px;
+    }
+}
+
+@media (max-width: 750px) {
+    .col H2 {
+        margin-top: 700px;
+    }
+}
+
+.col H2,
+.col1 H2 {
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Chart Pie */
+.card.card-info {
+    width: 400px;
+    height: 250px;
+    margin-left: 180px;
+    margin-top: 40px;
+    box-shadow: 0 10px 7px rgba(192, 186, 186, 0.8);
+}
+
+.card-title {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Admin */
+
+.card-header a {
+    margin-left: 800px;
+}
+
+.dataTables_filter {
+    margin-right: 90px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #afafaf;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #cecece;
+    box-sizing: border-box;
+    box-shadow: 0 7px 7px rgba(192, 186, 186, 0.8);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 15% 75%;
+}
+
+.dataTables_filter input {
+    width: 330px;
+    margin-top: 5px;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+
+.tambah button {
+    float: right;
+    margin-top: -40px;
+}
+
+/* pup up admin */
+.modal-body .input {
+    font-family: "Poppins", sans-serif;
+}
+
+.modal-body .input input,
+.modal-body .input select {
+    font-family: "Poppins", sans-serif;
+    width: 400px;
+}
+
+.modal-body .input label,
+.modal-body .input input,
+.modal-body .input select {
+    margin-left: 30px;
+}
+
+.modal-footer {
+    width: 200px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 150px;
+}
+
+.modal-content .modal-header h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+}
+.modal-content .modal-header {
+    box-shadow: 0 10px 7px rgba(192, 186, 186, 0.8);
+}
