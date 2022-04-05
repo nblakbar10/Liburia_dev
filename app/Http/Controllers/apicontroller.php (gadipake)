@@ -1,0 +1,53 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\UsersModel;
+
+class apicontroller extends Controller
+{
+    //untuk get data users
+    public function get_all_users(){
+        return response()->json(UsersModel::all(), 200);
+    }
+    //untuk register user/insert data users
+    public function insert_data_users(Request $request){
+        $insert_users = new UsersModel;
+        $insert_users->fullname = $request->fullname;
+        $insert_users->username = $request->username;
+        $insert_users->email = $request->email;
+        $insert_users->password = $request->password;
+        $insert_users->save();
+        return response([
+            'status' => 'OK',
+            'message' => 'Register Success!',
+            'data' => $insert_users
+        ],200);
+    }
+    //untuk update data
+    public function update_data_users(Request $request, $id){
+        //disini untuk checking data, apakah sudah ada atau tidak
+        $check_users = UsersModel::firstWhere('id', $id);
+        if($check_users){
+            //echo 'data yang dicari tersedia
+            $data_users = UsersModel::find($id);
+            $data_users->fullname = $request->fullname;
+            $data_users->username = $request->username;
+            $data_users->email = $request->email;
+            $data_users->password = $request->password;
+            $data_users->save();
+            return response([
+                'status' => 'OK',
+                'message' => 'Data Change Success!',
+                'data' => $data_users
+            ],200);
+        } else{
+            //echo 'ga ada';
+            return response([
+                'status' => 'Not Found',
+                'message' => 'Users or data not found'
+            ],404);
+        }
+    }
+}
